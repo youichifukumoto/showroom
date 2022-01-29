@@ -1,0 +1,149 @@
+/* 全体のサイズ指定 */
+body{
+  width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+} 
+
+/* ヘッダー*/
+.header {
+  display: flex;
+  background-color: rgb(231, 231, 231);
+  position: relative;
+
+}
+
+/* 納期タイトル */
+h2 {
+  font-size: 2rem;
+}
+
+
+
+/* 商品タイトル */
+ .header p {
+  margin: auto;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+/* 区分枠 */
+.title {
+  padding-right: 9rem;
+  width: 100rem;
+  text-align: center;
+}
+
+/* 区別リンク */
+.title a {
+  font-size: 1.5rem;
+  margin: 60px;
+}
+
+/* 品番の検索欄 */
+input {
+  margin-top: 0.7rem;
+  position: absolute;
+  left: 80%;
+  bottom: 1,5rem;
+  width: 10rem;
+  height: 1,5rem;
+  border-radius: 25px;
+  font-size: 0.7rem;
+  padding-left: 3rem;
+}
+
+/* 納期別項目 */
+.date {
+  border-bottom: dashed rgb(189, 186, 186);
+}
+
+/* 納品月表示 */
+.date_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* 商品画像 */
+img {
+  width: 14.5rem;
+  margin-right: 1.3rem;
+  margin-top: 3px;
+}
+
+/* 商品品番 */
+.item p {
+  font-size: 1,5rem;
+  margin: 0;
+margin-bottom: 3px;
+}
+
+/* 商品の配置 */
+.date_item {
+  display: flex;
+}  
+
+/* フッター表示 */
+footer{
+  padding-top: 10px;
+  width: 80%;
+  margin: auto;
+  background-color: rgb(245, 244, 244);
+  height: 70px;
+  text-align: center;
+}
+
+/* フッターメニュー */
+.styles_menu {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* 区分文字 */
+.styles_title {
+  font-size: 10px;
+  margin: 0;
+}
+
+/* アイコンと文字のセット枠 */
+.styles_link{
+  text-align: center;
+}
+
+/* アイコン */
+.styles_link img{
+  width: 17%;
+  margin-left: 18%;
+  margin: 2%;
+}
+
+/* 戻るリンク */
+.date_title a{
+  font-size: 1rem;
+}
+  
+
+html {
+    font-size: 16px;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+strong {
+    font-size: 1.3125rem;
+}
+

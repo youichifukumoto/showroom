@@ -1,0 +1,116 @@
+/* 全体のサイズ指定 */
+body{
+  width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  width: 90%;
+  height: 50rem;
+  margin: 0 auto;
+} 
+
+/* ヘッダー*/
+.header {
+  display: flex;
+  background-color: rgb(231, 231, 231);
+  position: relative;
+}
+
+/* 商品タイトル */
+ .header p {
+  margin: auto;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+.title {
+  padding-right: 9rem;
+  width: 100rem;
+  text-align: center;
+}
+
+/* 区別リンク */
+.title p {
+  font-size: 3rem;
+}
+
+/* 品番の検索欄 */
+input {
+  position: absolute;
+  left: 80%;
+  bottom: 1.5rem;
+  width: 10rem;
+  height: 1.5rem;
+  border-radius: 25px;
+  font-size: 0.7rem;
+  padding-left: 3rem;
+}
+
+
+/* 納品月表示 */
+.date_title {
+  font-size: 1,5rem;
+  height: 7.4rem; 
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: dashed rgb(189, 186, 186);
+}
+
+/* フッター表示 */
+footer{
+  padding-top: 0.7rem;
+  width: 90%;
+  margin: auto;
+  background-color: rgb(245, 244, 244);
+  height: 5rem;
+  text-align: center;
+}
+
+/* フッターメニュー */
+.styles_menu {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* 区分文字 */
+.styles_title {
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+/* アイコンと文字のセット枠 */
+.styles_link{
+  text-align: center;
+}
+
+/* アイコン */
+.styles_link img{
+  width: 3rem;
+  margin-left: 3rem;
+  margin: 0.5rem;
+}
+
+
+
+html {
+    font-size: 16px;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+strong {
+    font-size: 1.3125rem;
+}
+
+

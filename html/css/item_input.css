@@ -1,0 +1,212 @@
+body {
+    width: 100%;  
+    height: auto;  
+}
+
+fieldset{
+    width: 63%;
+    margin-left: 16%;
+    margin-top: 30px;
+
+}
+
+/* 商品のデリバリ− */
+#delivery {
+    font-size: 10px;
+    width: 89%;
+    margin-left: 5%;
+    margin-bottom: 0;
+    padding-bottom: 1%;
+    border-bottom: 2px solid black; 
+    text-align: left;  
+}
+ 
+/* 商品の型番 */
+h1 {
+    text-align: center;
+    font-size: 10px;
+    margin-right: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* 商品名＆上代価格 */
+h3 {
+    font-size: 10px;
+    margin-right: 5%;
+}
+
+/* 型番と品名と上代のディテール */
+.item_number {
+    font-size: 10px;
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    align-items: center;
+    border-bottom: black 1px dashed;
+ 
+}
+
+/* ファブリックとサイズは共通指定 */
+.material {
+    margin-right: 3%;
+    background-color: rgb(78, 74, 74);
+    color: cornsilk;
+    width: 60px;
+    text-align: center;
+}
+
+/* 品質表示部分 */
+.fabric {
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 0%;
+    padding: 0px;
+}
+
+/* 品質表示、サイズ表記の間隔 */
+.fabric p {
+   font-size: 11.5px;
+    margin-bottom: 1px;
+}
+
+/* ザイズ表記部分 */
+.size {
+    width: 91%;
+    display: flex;
+    margin-left:5%;
+    border-bottom: 2px solid black;
+}
+
+/* 品質表示、サイズ表記の間隔 */
+.size p {
+    font-size: 11.5px;
+    margin-top: 1px;
+    padding: 0px;
+   
+}
+
+main p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* 商品動画 */
+.movie {
+    width: 90%;
+    height: 350px;
+    background-color: lightgray;
+    margin-left: 5%;   
+}
+
+/* footer */
+.color_nav {
+    font-size: 11.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* カラーバリエーション */
+h4 {
+    font-size: 11.5px;
+    text-align: left;
+    margin-left: 5%;
+}
+
+/* モデル身長の表示 */ 
+div {
+margin-right: 3%;
+}
+
+/* ディティール写真の配置 */
+.detail{
+    text-align: center;
+}
+
+/* 商品の詳細画像4枚 */
+.detail img{
+    width: 18%;
+}
+
+/* 画像拡大 */
+.detail a:hover{
+    opacity: 0.8;
+}
+
+a img {
+    width: 200px;
+}
+
+/* 画面全体を黒の半透明が覆い、初期状態は非表示 */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(37, 36, 36, 0.8);
+    display: none;
+}
+
+/* 拡大詳細画像の位置 */
+.bigimg{
+    position: absolute;
+    width: 80%;
+    max-width: 800px;
+    top: 60px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* 拡大詳細の✖️ボタン */
+.close-btn {
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+/* カラー展開画像の配置 */
+.item_color {
+    display: flex;
+    width: 5%;
+    margin-left: 5%;
+}
+
+/* カラー展開の写真 */
+.item_color img {
+    margin-left: 2%;
+    width: 50%;
+}
+
+/* 数量入力 */
+input {
+    font-size: 2.0em;
+    text-align: center;
+}
+
+/* カラー表記*/
+.color {
+    font-size: 10px;
+    margin: 0px;
+}
+
+/* 入力コメント */
+.comment{ 
+    font-size: 11.5px;
+    width: 100%;
+    margin-left: 5%;
+    background-color: rgb(82, 88, 90);
+    color: floralwhite;
+}
+
+/* 登録 */
+.button {
+    font-size: 15px;
+    margin-left: 39%;
+    background-color: gold;
+}
+

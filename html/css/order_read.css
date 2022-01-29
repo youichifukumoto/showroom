@@ -1,0 +1,39 @@
+body{
+    width: 100%;
+}
+
+fieldset{
+    margin-left: 8%;
+    width: 80%;
+}
+
+tr th{
+    font-size: 1.5rem;
+    padding-right: 80px;
+}
+
+p {
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+html {
+    font-size: 16px;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+
+strong {
+    font-size: 1.3125rem;
+}
